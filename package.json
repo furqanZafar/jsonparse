@@ -11,6 +11,14 @@
     "type": "git",
     "url": "http://github.com/creationix/jsonparse.git"
   },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "buffer-browserify": "global:bufferBrowserify"
+  },
   "devDependencies": {
     "browserify": "^13.0.1",
     "browserify-shim": "^3.8.12",

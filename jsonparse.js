@@ -1,4 +1,4 @@
-/*global Buffer*/
+var Buffer = require("buffer-browserify").Buffer
 // Named constants with unique integer values
 var C = {};
 // Tokens
