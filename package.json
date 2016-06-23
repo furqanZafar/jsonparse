@@ -1,7 +1,10 @@
 {
   "name": "jsonparse",
   "description": "This is a pure-js JSON streaming parser for node.js",
-  "tags": ["json", "stream"],
+  "tags": [
+    "json",
+    "stream"
+  ],
   "version": "1.1.0",
   "author": "Tim Caswell <tim@creationix.com>",
   "repository": {
@@ -9,14 +12,22 @@
     "url": "http://github.com/creationix/jsonparse.git"
   },
   "devDependencies": {
+    "browserify": "^13.0.1",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.4",
+    "tap": "~0.3.3",
     "tape": "~0.1.1",
-    "tap": "~0.3.3"
+    "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
     "test": "tap test/*.js"
   },
   "bugs": "http://github.com/creationix/jsonparse/issues",
-  "engines": ["node >= 0.2.0"],
+  "engines": [
+    "node >= 0.2.0"
+  ],
   "license": "MIT",
   "main": "jsonparse.js"
 }
